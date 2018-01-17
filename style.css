@@ -1,0 +1,73 @@
+
+.list {
+    margin-top: 20px;
+}
+.list img {
+    height: 150px;
+}
+
+.list > div {
+    display: flex;
+    align-items: center;
+}
+
+span{
+    background-color: #25b082;
+    height: 20px;
+    width:20%;
+    color:#fff;
+    padding: 10px 12px;
+    border-radius: 20px;
+}
+span:hover{
+    background-color: #ffa500;
+}
+#addButton, #deleteButton {
+    background-color: #e06064;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50px;
+    display: inline-block;
+    
+}
+
+
+#updateButton, #editButton {
+    background-color: #a9a9f5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50px;
+    display: inline-block;
+    
+}
+
+#addButton:hover, #deleteButton:hover {
+    background-color: #009acd;
+}
+#updateButton:hover, #editButton:hover {
+    background-color: #20c4bf;
+}
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text]:hover{
+    background-color: #a9a9f5;
+}
+
+h3{
+    color:#fff;
+}
